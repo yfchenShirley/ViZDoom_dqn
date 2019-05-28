@@ -17,10 +17,7 @@ module load CMake/3.8.0-foss-2016a
 cd /data/p285442/DeepLearning/ViZDoom_dqn/
 
 
-#pip install tensorflow-gpu --user
-#pip install cudnn --user
-#pip install cudatoolkit --user
-#pip install cmake --user
+
 #pip install vizdoom --user
 
 python Deep_Q_learning_with_Doom_hg.py
