@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --time=03:00:00
+#SBATCH --time=2-10:30:00
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
-#SBATCH --mem=4GB
-#SBATCH --job-name="ViZDoom_DQN"
+#SBATCH --mem=8GB
+#SBATCH --job-name=ViZDoom_DQN
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=yifei.chen@rug.nl
 
@@ -15,7 +15,6 @@ cd /data/p285442/DeepLearning/ViZDoom_dqn/
 
 
 #pip install tensorflow-gpu --user
-#pip install cud
 #pip install cudnn --user
 #pip install cudatoolkit --user
 #pip install cmake --user
