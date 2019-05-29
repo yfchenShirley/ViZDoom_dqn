@@ -1,4 +1,4 @@
-name: doom-gpu
+name: vizdoom-gpu
 channels:
   - anaconda
   - conda-forge
